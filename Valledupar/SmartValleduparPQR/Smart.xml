@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\nmesino\Documents\NetBeansProjects\Valledupar\SmartValleduparPQR\SmartValleduparPQR.jar</jar>
+  <outfile>C:\Users\nmesino\Documents\NetBeansProjects\Valledupar\SmartValleduparPQR\Smart.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\nmesino\Documents\Zul Req\VALLEDUPAR\PTC_VALLE.ico</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>1.0.0.0</fileDescription>
+    <copyright>1.0.0.0</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>1.0.0.0</productName>
+    <companyName>1.0.0.0</companyName>
+    <internalName>1.0.0.0</internalName>
+    <originalFilename>Smart.exe</originalFilename>
+    <trademarks>1.0.0.0</trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

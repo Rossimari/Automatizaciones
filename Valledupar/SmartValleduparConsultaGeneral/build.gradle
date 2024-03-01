@@ -1,0 +1,40 @@
+plugins{
+    id 'java'
+}
+
+group 'SmartValleduparConsultaGeneral'
+version '1.0.0'
+
+sourceCompatibility = 20
+targetCompatibility = 20
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+
+     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java 
+     /*compile group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'*/
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+
+     // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+    testImplementation 'io.cucumber:cucumber-junit:4.2.0'
+     // https://mvnrepository.com/artifact/io.cucumber/cucumber-junit    
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.0'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+
+    //implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+
+     // Para reportes
+    implementation group: 'com.aventstack', name: 'extentreports-cucumber4-adapter', version: '1.0.7'
+
+     // Ventanas popup
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+
+     // Excel
+    implementation group: 'org.apache.poi', name: 'poi', version: '5.2.3'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.3'
+}

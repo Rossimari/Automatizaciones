@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group 'Auto'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    
+    
+    // Cucumber dependencies
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+    testImplementation 'io.cucumber:cucumber-junit:4.2.0'
+    
+    // SLF4J and Extent Reports
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    implementation group: 'com.aventstack', name: 'extentreports-cucumber4-adapter', version: '1.0.7'
+    
+    // Apache POI
+    implementation group: 'org.apache.poi', name: 'poi', version: '5.0.0'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.3'
+  
+    // testImplementation group: 'junit', name: 'junit', version: '4.12'
+    // implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    // implementation group: 'io.cucumber', name: 'cucumber-java', version: '4.2.0'
+    // testImplementation 'io.cucumber:cucumber-junit:4.2.0'
+    // Otras dependencias...
+}
+
